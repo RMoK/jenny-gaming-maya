@@ -7,7 +7,7 @@ public class FacetedWater : MonoBehaviour {
 	float[] randomTimes;
 	Mesh mesh;
 	
-	void Start(){
+	void Start() {
 		mesh = GetComponent<MeshFilter>().mesh;
 		int i = 0;
 		randomTimes = new float[mesh.vertices.Length];
